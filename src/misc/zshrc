@@ -1,0 +1,15 @@
+custom_paths=(
+    "$HOME/.local/bin"
+)
+export PATH="${(j.:.)custom_paths}:$PATH"
+
+export ZSH=$HOME/.oh-my-zsh
+ZSH_THEME="agnoster"
+plugins=(
+    rust
+)
+source $ZSH/oh-my-zsh.sh
+
+source ~/.cargo/env # rust
+
+export HF_ENDPOINT=https://hf-mirror.com
