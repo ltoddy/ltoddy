@@ -1,14 +1,10 @@
 [package]
 name = "ltoddy"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 authors = ["ltoddy <taoliu0509@gmail.com>"]
 license = "MIT OR Apache-2.0"
 readme = "README.md"
 description = "about myself"
 
 [dependencies]
-anyhow = "1"
-clap = { version = "4.6", default-features = false, features = ["std"] }
-log = "0.4"
-simplelog = "0.12"
