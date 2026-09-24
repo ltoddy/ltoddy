@@ -2,6 +2,16 @@
 
 该目录用于存放可复用的 agent 扩展。
 
+## Setup
+
+执行以下命令可将 `skills/` 与 `commands/` 安装到 `~/.agents/` 目录：
+
+```bash
+./setup.sh
+```
+
+安装过程会创建 `~/.agents/skills/` 与 `~/.agents/commands/`，并将本目录下对应内容复制进去；同名文件会被覆盖。
+
 ## Commands
 
 `commands/` 用于保存可直接复用的工作流提示词。
